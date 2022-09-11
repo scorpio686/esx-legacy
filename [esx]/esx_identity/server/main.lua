@@ -227,7 +227,7 @@ if Config.UseDeferrals then
                                     '' or data.height == '' then
                                     deferrals.done(_U('data_incorrect'))
                                 else
-                                    if checkNameFormat(date.firstname) then
+                                    if checkNameFormat(data.firstname) then
                                         if checkNameFormat(data.lastname) then
                                             if checkDOBFormat(data.dateofbirth) then
                                                 if checkSexFormat(data.sex) then
